@@ -1,0 +1,167 @@
+/* This stylesheet is used to style the admin option form of the plugin. */
+
+<style type="text/css">
+
+.just_a_place_holder {
+	
+}
+
+#this_post_id_wrapper {
+	width:200px;
+	position:absolute;
+	top:-55px;
+	right:30px;
+	text-align:right;
+	color:green;
+}
+
+
+
+/******************************************
+*links in edit pane
+******************************************/
+.a_current_link {
+	position:relative;
+	padding-left:60px; 
+	padding-right:55px;
+	min-height:55px;
+	overflow:hidden;
+}
+.a_current_link_item {
+	margin: 0 10px 5px 0;
+}
+
+.a_current_link_title {
+	font-weight:bold;
+	font-size:larger;
+	}
+
+.a_current_link_intro {
+	font-size:larger;
+}
+
+.a_current_link_detail {
+	background-color:#ccc;
+	border-radius:3px;
+	padding:3px;
+}
+.a_current_link_detail_hidden {
+	display:none;	
+}
+.a_current_link_item_img {
+	width:100%;
+}
+.a_current_link_item_img_wrapper {
+	position:absolute;	
+	left:0px;
+	top:0px;
+	width:50px;
+	height:50px;
+	overflow:hidden;
+}
+	
+
+.delete_me {
+	color:red;
+	position:absolute;
+	right:0px;
+	top:0px;
+}	
+.copy_me {
+	color:green;
+	position:absolute;
+	right:0px;
+	top:25px;
+}	
+
+.rlb-hidden {
+	visibility:hidden;	
+}
+
+
+/******************************************
+*control pane layout
+******************************************/
+#add_a_link_wrapper {
+	position:relative;
+}
+.add_a_link_input {
+	width:100%;
+}
+#add_link_button {
+	position:absolute;
+	top:0px;
+	left:-80px;
+}
+
+#clear_button {
+	position:absolute;
+	top:40px;
+	left:-80px;
+}
+
+#add_a_link_thumb_wrapper {
+	height:125px;
+	width:100px;
+	right:-110px;
+	top:0px;
+	position:absolute;
+}
+#add_a_link_thumb {
+	position:relative;
+	height:100px;
+	width:100px;
+	overflow:hidden;
+	border:2px dotted #aaa;
+	background-color:white;	
+}
+#thumb_file_name {	
+	position:absolute;
+	height:20px;
+	bottom:0px;	
+	font-size:xx-small;
+}
+
+#add_a_link_thumb span {
+	width:100%;
+	text-align:center;
+	bottom:0px;
+	position:absolute;
+	color:#333;
+}
+#controls_wrapper {
+	padding-right:120px;
+	padding-left:80px;
+	min-height:100px;
+	position:relative;
+}
+
+
+
+/******************************************
+* posts picker
+******************************************/
+#link_picker_wrapper {
+	text-align:center;	
+	margin-top:6px;
+}
+.a_similar_link {
+	background-color:#ddd;
+	border-radius:3px;
+	padding:3px;
+	margin:1px 1px;
+	opacity:0.5;
+}
+.somewhat_similar {
+	opacity:1.0;
+}
+.am_similar {
+	font-size:larger;
+}
+.very_similar {
+	font-size:large;
+}
+.more_links_needed {
+	font weight:bold;	
+}
+</style>
